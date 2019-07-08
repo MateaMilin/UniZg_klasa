@@ -1,0 +1,36 @@
+\documentclass{unizg_klasa}
+\graphicspath{} %folder za slike, pročitati upute za pisanje u LaTeXu
+%na računalu je potrebno imati pakete:
+%upgreek
+%titlesec
+%tocbibind
+%babel
+%hypperref
+
+%ubacivanje Unizg fonta ako je potrebno
+
+\usepackage{fontspec} 
+\setmainfont{UniZGLight.ttf}[
+BoldFont=UniZgBold.ttf,
+ItalicFont=UniZgLightItalic.ttf]
+
+\begin{document}
+
+\imestudenta{Tvoje Ime}
+\sveuciliste{Sveučilište u Zagrebu}
+\fakultet{Tvoj fakultet}
+\naslovrada{Naslov tvog rada neki malo duži - istraživanje utjecaja nečeg na nešto}
+\rad{Vrsta rada}
+\mentor{Ime Mentora}
+\grad{Tvoj grad}
+\logo{\includegraphics[width=8cm]{Slike/logo/grfunizg.jpg}}%ubaci logo svog fakulteta
+%provjeri kako se adresira folder sa slikama u uputama
+
+\prvanaslovna
+\druganaslovna
+\section{Uvod}
+Tekst
+\subsection{Podnaslov}
+Tekst
+\subsubsection{Podpodnaslov}
+\end{document}
